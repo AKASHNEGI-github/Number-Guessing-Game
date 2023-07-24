@@ -1,0 +1,53 @@
+body
+{
+    background-color: blue;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container
+{
+    font-weight: bold;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    line-height: 1.5rem;
+}
+
+.input
+{
+    margin: 15px;
+    width: 70px; 
+    height: 36px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn
+{
+    background-color: #0052ff;
+    color: white;
+}
+
+.btn:hover
+{
+    background-color: #0052ff;
+    color: white;
+}
+
+h6
+{
+    font-weight: bold;
+}
+
+.akashnegi
+{
+    text-decoration: underline;
+}
